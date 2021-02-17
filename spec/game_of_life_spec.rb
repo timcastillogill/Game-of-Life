@@ -8,7 +8,6 @@ describe GameOfLife do
       context 'when I do not pass any coordinates' do
         let(:coordinates) { [] }
         it 'returns an empty board' do
-          binding.pry
           expect(game_of_life.board).to eq [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]] 
         end
       end
